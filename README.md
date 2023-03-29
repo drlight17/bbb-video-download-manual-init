@@ -22,7 +22,7 @@ If you use **installed BBB instance** then above requirement is unnecessary.
 
 Tested on the installed BBB 2.4 and dockerized BBB 2.5 versions.
 # !!!KNOWN issues!!!
-Current bbb-video-download hs an issue with memory leak when use alpine newer then 3.11. To build normal functioning bbb-video-download edit it's Dockerfile as the following:
+Current bbb-video-download has an issue with memory leak when use alpine newer then 3.11. To build normal functioning bbb-video-download edit it's Dockerfile as the following:
 ```
 --- a/src/Dockerfile
 +++ b/src/Dockerfile

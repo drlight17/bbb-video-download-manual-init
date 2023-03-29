@@ -21,3 +21,12 @@ In order to proper run of this script there must be bigbluebutton user and group
 If you use **installed BBB instance** then above requirement is unnecessary.
 
 Tested on the installed BBB 2.4 and dockerized BBB 2.5 versions.
+# !!!KNOWN issues!!!
+Current bbb-video-download hs an issue with memory leak when use alpine newer then 3.11. To build normal functioning bbb-video-download edit it's Dockerfile as the following:
+```
+--- a/src/Dockerfile
++++ b/src/Dockerfile
+@@ -1,8 +1,8 @@
+-FROM node:12-alpine
++FROM node:12-alpine3.11 
+```

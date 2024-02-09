@@ -1,3 +1,5 @@
+# This repo is archived as [tilmanmoser/bbb-video-download project](https://github.com/tilmanmoser/bbb-video-download) is unmaintened now. Use my fork of [bbb-mp4](https://github.com/drlight17/bbb-mp4) project instead as it is compatible with 2.6+ BBB versions.
+
 # bbb-video-download-manual-init
 This is bash script to manually or scheduled run of <a href=https://github.com/tilmanmoser/bbb-video-download>tilmanmoser's dockerized bbb-video-download script</a> for non-rendered presentations.
 
